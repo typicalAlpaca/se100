@@ -1,4 +1,4 @@
-const companyName = "Amazon";
-const companyRating = 5;
-
-console.log(companyName + " has a customer satisfaction rating of " + companyRating);
+const companyName = "Metaa";
+let amendedCompanyName = companyName.substring(0, companyName.length-1);
+console.log(amendedCompanyName);
+console.log(amendedCompanyName.toUpperCase());
