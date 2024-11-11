@@ -1,4 +1,5 @@
-const companyName = "Metaa";
-let amendedCompanyName = companyName.substring(0, companyName.length-1);
-console.log(amendedCompanyName);
-console.log(amendedCompanyName.toUpperCase());
+const DayOneClosingPrice = "87.14";
+const DayTwoClosingPrice = "84.22";
+
+let avgClosingPrice = (parseFloat(DayOneClosingPrice) + parseFloat(DayTwoClosingPrice))/2;
+console.log(avgClosingPrice);
