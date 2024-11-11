@@ -1,5 +1,4 @@
-let company = 'Microsoft\'s';
-console.log(company);
+const companyName = "Amazon";
+const companyRating = 5;
 
-company = "Microsoft's";
-console.log(company);
+console.log(companyName + " has a customer satisfaction rating of " + companyRating);
