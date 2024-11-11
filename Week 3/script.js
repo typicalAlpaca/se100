@@ -1,5 +1,8 @@
-const DayOneClosingPrice = "87.14";
-const DayTwoClosingPrice = "84.22";
+const TSLAClosingPrices = [230.12, 221.45, 225.61, 219.48, 227.52];
+let avg = 0;
 
-let avgClosingPrice = (parseFloat(DayOneClosingPrice) + parseFloat(DayTwoClosingPrice))/2;
-console.log(avgClosingPrice);
+for(let i=0; i<TSLAClosingPrices.length; i++){
+    avg += TSLAClosingPrices[i]/TSLAClosingPrices.length;
+}
+
+console.log(avg);
